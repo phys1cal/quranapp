@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quran</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    .arabic{
+        font-family: 'Reem Kufi', sans-serif;
+    }
+</style>
+
+<body>
+    <div class=" flex justify-center text-white bg-slate-500  ">
+        <div class="bg-[url('mosque1.jpg')] bg-cover max-h-fit rounded-xl my-5">
+            <div class="flex gap-56 mx-5 mt-2 ">
+                <h1 class="font-bold text-4xl">Quran</h1>
+                <img src="download (1).jpg" class="h-12 w-12 rounded-full " alt="">
+
+            </div>
+            <div class="flex gap-60 bg-stone-700/[.2] rounded-xl p-3 m-2">
+                <div class="flex ">
+                    <img src="search.svg" class=" ml-2 h-6" alt="">
+                    <a href="">Search</a>
+                </div>
+                <a href=""><img src="microphone.svg" class="h-6 justify-items-end" alt=""></a>
+            </div>
+            <div class="">
+                <div class="">
+                    <div>
+                        <div class="flex gap-2">
+                            <img src="Untitled1.png" class="h-44 " alt="">
+                            <div class="bg-stone-800/[.500] my-8 rounded-xl">
+                                <div class="text-blue-500 ml-4 ">
+                                    <p id="changeChapter">Al-Baqarah </p><span class="arabic" id="changeChapterAra">  البقرة</span>
+
+                                    
+
+                                </div>
+                                <audio controls  type="audio/mpeg" id="aud" class="mt-2 mx-2" src="">
+                                    <source  >
+                                </audio>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 mx-4">
+                            <a href=""
+                                class="bg-stone-800 rounded-xl hover:bg-white hover:text-black p-1 px-2">Juz</a><br>
+                            <a href=""
+                                class="bg-stone-800 rounded-xl hover:bg-white hover:text-black p-1 px-2">Playlist</a><br>
+                            <a href=""
+                                class="bg-stone-800 rounded-xl hover:bg-white hover:text-black p-1 px-2">Sura</a><br>
+                            <a href="" class="bg-stone-800 rounded-xl hover:bg-white hover:text-black p-1 px-2">My
+                                Quran</a><br>
+                            <a href=""
+                                class="bg-stone-800 rounded-xl hover:bg-white hover:text-black p-1 px-2">Article</a>
+                        </div>
+                        <div class=" max-h-96 overflow-scroll mt-4">
+                            <ol id="chapters" class="m-5 "></ol>
+
+                        </div>
+
+
+
+                    </div>
+                    <!-- <footer>
+
+</footer> -->
+                </div>
+                <!-- </div> -->
+
+
+            </div>
+            <footer>
+                <div class=" flex gap-14 mx-4 my-2">
+                    <a href=""><img src="home.svg" alt=""></a>
+                    <a href=""><img src="compass.svg" class="h-14" alt=""></a>
+                    <a href=""><img src="book-open-outline.svg" alt=""></a>
+                    <a href=""><img src="ellipsis-h.svg" alt=""></a>
+                </div>
+            </footer>
+            <script src="quran.js"></script>
+</body>
+
+</html>
