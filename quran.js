@@ -22,7 +22,7 @@ function rename(chapter) {
 setTimeout(() => {
   let allPlay = document.querySelectorAll(".play");
   allPlay.forEach((play) => {
-    let url = `http://server8.mp3quran.net/ayyub/`;
+    let url = `https://server8.mp3quran.net/ayyub/`;
     let chapter = play.getAttribute("data-chapter");
     let chapterEn = play.getAttribute("data-chapteren");
     let chapterAra = play.getAttribute("data-chapterara");
